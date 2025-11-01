@@ -17,13 +17,16 @@
     text-align: center;
 }
 
-.caixa {
-    width: 400px;
+.sec {
+    background: #383939;
     padding: 40px;
-    background: #fff;
     border-radius: 10px;
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid #38c957;
+    width: 400px;
+    max-width: 90%;
 }
+
 .h1 {
     margin: 0 0 30px;
     padding: 0;

@@ -23,3 +23,19 @@
     border-radius: 10px;
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
 }
+.h1 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 30px;
+}

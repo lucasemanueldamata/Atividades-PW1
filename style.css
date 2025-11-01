@@ -22,27 +22,17 @@
     padding: 40px;
     background: #2c2c2c;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .h1 {
-    margin: 0 0 30px;
-    padding: 0;
-    color: #dadada;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    color: #fff;
     font-size: 24px;
-    font-weight: 600;
+    margin-bottom: 30px;
 }
 
-.text {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
+.text a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }

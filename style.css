@@ -27,7 +27,7 @@
 .h1 {
     margin: 0 0 30px;
     padding: 0;
-    color: #dadada;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -37,6 +37,6 @@
 
 .text {
     text-align: center;
-    border-bottom: 2px solid #adadad;
-    margin-bottom: 30px;
+    color: white;
+    
 }

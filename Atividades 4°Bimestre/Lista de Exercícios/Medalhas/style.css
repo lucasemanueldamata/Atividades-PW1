@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.sec {
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1 {
+    color: #33476d;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.p {
+    color: #33476d;
+    margin-top: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container {
+    border-radius: 40px;
+    background-color: palegoldenrod;
+    height: 30rem;
+    width: 20rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+    color: #33476d;
+    border: 10px solid #33476d;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.input-container a {
+    text-decoration: none;
+    color: #33476d;
+    font-size: 0.9rem;
+    align-self: flex-end;
+}
+
+.input-container input {
+    padding: 0.7rem;
+    border: 2px solid #33476d;
+    border-radius: 10px;
+    outline: none;
+}
+
+.input-container input:focus {
+    border-color: #243850;
+}
+
+.botao {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #33476d;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #243850;
+    transition: 1s;
+}
+
+.botao-reset {
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao-reset:hover {
+    background-color: #d32f2f;
+    transition: 1s;
+}

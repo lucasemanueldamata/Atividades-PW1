@@ -8,7 +8,7 @@
 }
 
 .sec {
-    background-color: #2c2c2c;
+    background-color: #7a7a7a;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -21,19 +21,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fff;
-    background-color: #4e4b4b;
+    color: black;
+    background-color: #c4c4c4;
     width: 530px;
     height: 250px;
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, .2);
-    border: 2px solid #4CAF50;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid black;
     font-weight: bold;
 }
 
 .h1 {
-    color: #4CAF50;
+    color: black;
 }
 
 .input-container {
@@ -49,7 +49,7 @@
 
 .botao {
     border: none;
-    color: #fff;
+    color: #4CAF50;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
@@ -58,34 +58,15 @@
     margin: 10px 10px;
     cursor: pointer;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .botao-add {
-    background-color: #000000;
-}
-
-.botao-clear {
-    width: 150px;
-    display: none;
-    background-color: #f44336;
+    background-color: black;
 }
 
 .botao-add:hover {
     background-color: transparent;
     transition: 0.5s;
-    border: 2px solid #4CAF50;
-}
-
-.botao-clear:hover {
-    background-color: #da190b;
-}
-
-.botao:active {
-    background-color: #3e8e41;
-    transform: translateY(1px);
-}
-
-.error {
-    color: red;
-    margin-top: 5px;
+    border: 2px solid black;
 }

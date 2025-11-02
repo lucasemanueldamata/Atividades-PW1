@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Tabuada</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gerador de Tabuada</h1>
+        <div class="input-container">
+            <label for="numero">Digite um número entre 1 e 10</label>
+            <input type="text" id="numero">
+        </div>
+        <p id="error"></p>
+        <button class="botao botao-add" onclick="criarTabuada()">Criar Tabuada</button>
+        <table id="tabuada"></table><br>
+        <button class="botao botao-clear" id="clear" onclick="limparInput()">Limpar</button>
+    </div>
+</body>
+
+</html>
